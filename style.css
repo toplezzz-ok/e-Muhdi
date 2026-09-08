@@ -431,6 +431,16 @@ a {
   bottom: 60px;
 }
 
+.card-three {
+
+    left:
+        25px;
+
+    bottom:
+        35px;
+
+}
+
 /* =========================
    DECORATION
 ========================= */
@@ -889,6 +899,48 @@ footer {
 /* =========================
    TABLET
 ========================= */
+
+/* =========================
+   MAINTENANCE
+========================= */
+
+.maintenance-card {
+    cursor: default;
+}
+
+.maintenance-card:hover {
+    transform: translateY(-4px);
+
+    border-color:
+        rgba(180, 150, 50, 0.25);
+
+    box-shadow:
+        0 25px 50px rgba(15, 70, 45, 0.08);
+}
+
+.maintenance-badge {
+    background: #f5f1df;
+
+    color: #8b7626;
+}
+
+.maintenance-status {
+    color: #8b7626;
+
+    cursor: default;
+}
+
+.maintenance-status span {
+    font-size: 9px;
+
+    color: #c7a82f;
+
+    margin-right: 5px;
+}
+
+.maintenance-text {
+    color: #b29428 !important;
+}
 
 @media (max-width: 900px) {
   .hero-layout {
